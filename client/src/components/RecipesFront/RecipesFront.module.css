@@ -1,0 +1,37 @@
+.divContenedorDos{        
+    /* display: flex;
+    justify-content: center; */
+    flex-direction: row;
+   
+    width: auto;
+    height: auto;
+    display:-webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+
+        margin-bottom: 60px;
+/*         
+    -webkit-transform: scale(.8);
+    transform: scale(.8); */
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/006/054/non_2x/spices-for-use-as-cooking-ingredients-on-a-wooden-background-with-fresh-vegetables-healthy-food-herbs-organic-vegetables-on-the-table-raw-materials-of-cooking-preparation-tom-yum-free-photo.jpg);
+    /* url(https://fondosmil.com/fondo/31112.jpg); */
+    /* https://t4.ftcdn.net/jpg/05/07/32/97/240_F_507329714_rqcXNRqwqhb97GRa0QWkidyBHZMnxp0y.jpg */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-block-start: 114px;
+        
+    }
+
+      .divContenedorDos button{
+        background-color: none;
+        text-align: right;
+    }
+
+    a:link { text-decoration:none; } a:visited { text-decoration:none; }
+
+
+

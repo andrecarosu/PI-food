@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family:cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image:url(https://img.freepik.com/fotos-premium/especias-hierbas-textura-madera_182252-3925.jpg?w=740); /*(../img/fondo.jpg) */
+    /* url(https://fondosmil.com/fondo/31112.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color:antiquewhite;
+    color: #fc770b;
+    
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  button {
+    text-align: center;
+    background-color: none;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-color: #bafa09;
+    border-width: 6px;
+    color:  #fc770b;
+    height: 50px;
+    font-family: cursive;    
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  button:hover{
+    background-color :hwb(59 3% 3%);
+    opacity: .6;
+    color: rgb(3, 97, 3);
+    cursor:pointer;
+    border-color: #fc770b;
+    background-color: none;
+}
+
+
+.nav{
+  margin-top: 10px;
+}

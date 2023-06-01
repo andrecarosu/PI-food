@@ -1,0 +1,119 @@
+
+.divContenedor{
+    background-color: rgba(51, 3, 3, 0.6);
+    opacity: .9;
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+    /* border: 4px solid hwb(43 0% 94% / 0.8); */
+    border-radius: 7px;
+    -webkit-transform: scale(.8);
+    transform: scale(.8); 
+    box-shadow: 3px 3px 5px 1px rgba(51, 3, 3, 0.6);
+    -webkit-box-shadow: 0px 0px 7px 7px  rgba(51, 3, 3, 0.6);
+ }
+
+.divContenedor button{
+    text-align: right;
+    background-color:none;
+    width: auto;
+    margin-top: 10px;
+    margin-right: 5px; 
+    height: 50px;
+}
+
+.divContenedor:link{
+    text-decoration:none;
+}
+
+
+.divContenedorbutton{
+    text-align: center;
+    background-color: none;
+    margin-bottom: 15px;
+    border-radius: 180px;
+    border-color: #f1f506;
+    border-width: 3px;
+}
+
+.divContenedorimage{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 180px;
+    height: 40px;
+    width: 40px;
+    
+    
+}
+
+.divContenedor button:hover{
+    background-color :rgb(255, 251, 0);
+    opacity: .3;
+}
+
+.divContenedorCardImg{
+    border-radius: 180px;
+    /* border: 5px solid #f3690d; */
+    margin-top: -70px;
+    width: 280px;
+    height: 280px;
+       
+    box-shadow: 0px 0px 8px 8px hsl(64, 91%, 50%);
+    -webkit-box-shadow: 0px 0px 8px 8px hsl(64, 91%, 50%);
+   
+}
+
+
+
+.nameh2{
+    /* background-color: rgb(54, 51, 51); */
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #f3690d;
+    background-color: hsl(208, 100%, 97%, 0.8);
+    box-shadow: 3px 3px 5px 1px hsl(208, 100%, 97%, 0.8);
+    -webkit-box-shadow: 0px 0px 7px 7px  hsl(208, 100%, 97%, 0.8);
+    padding: 5px;
+    margin-top: 0px;
+
+}
+
+.nameh2:hover{
+    
+        background-color: hsl(61, 100%, 50%);
+        color: rgb(54, 51, 51);
+    
+}
+
+.nameh2B{
+    
+    font-size: 21px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    color: hsl(17, 100%, 50%);
+    padding: 3px;    
+    text-align: left;
+    background-color: aliceblue;
+    font-style: italic;
+    font-weight: 700;    
+    text-shadow: 3px 2px 3px #f3af87;
+    width: auto;
+    height: auto;
+}
+
+.nameh2C{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    margin-left: 5px;
+    color: #ff004c;
+    margin-bottom: 10px;
+    text-align: center;
+   
+}
