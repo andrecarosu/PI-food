@@ -1,11 +1,11 @@
 import axios from 'axios';
 import {GET_ALL_RECIPES, GET_RECIPE, GET_DIET_TYPES, SEARCH_RECIPE, 
     DIET_TYPE_FILTER, ALPHABETICAL_SORT, SCORE_SORT,FROM_DATA_API,CLEAN_STATE} from './action-type';
-
+    const URL = process.env.REACT_APP_DEPLOYBACK_URL;
 export const getRecipes = () =>{
 
     return async (dispatch) => {
-        const response = await axios.get('http://localhost:3001/recipes')
+        const response = await axios.get(`${URL}/recipes`)
         const data = response.data;
         return dispatch({
             type: GET_ALL_RECIPES,
@@ -18,7 +18,7 @@ export const getRecipes = () =>{
 export const getRecipe = (id) =>{
  
     return async (dispatch) => {
-        const response = await axios.get(`http://localhost:3001/recipes/${id}`)
+        const response = await axios.get(`${URL}/recipes/${id}`)
         const data = response.data;
         return dispatch({
             type: GET_RECIPE,
@@ -32,7 +32,7 @@ export const getRecipe = (id) =>{
 export function getDietTypes() {
     return async function(dispatch) {
         try{
-            const response = await axios.get(`http://localhost:3001/diets`);
+            const response = await axios.get(`${URL}/diets`);
             const data = response.data;
             return dispatch({
             type: GET_DIET_TYPES, 
@@ -47,7 +47,7 @@ export function addRecipe(payload) {
     return async function(dispatch) {
       
       try {
-        const response = await axios.post(`http://localhost:3001/recipes`, payload);
+        const response = await axios.post(`${URL}/recipes`, payload);
   
         return  dispatch({ type: "ADD_RECIPE", payload: response.data }); // Despacha una acción con la respuesta de la solicitud
       } catch (error) {
@@ -58,7 +58,7 @@ export function addRecipe(payload) {
 
   export function searchRecipe(name) {
     return async (dispatch) => {
-        const response = await axios.get(`http://localhost:3001/recipes?name=${name}`)
+        const response = await axios.get(`${URL}/recipes?name=${name}`)
         const data = response.data;
         return dispatch({
             type: SEARCH_RECIPE,
