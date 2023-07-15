@@ -13,7 +13,7 @@ const DB_PASSWORD = process.env.DB_PASSWORD;
 const DB_HOST = process.env.DB_HOST;
 const DB_NAME = process.env.DB_NAME;
 
-const sequelize = new Sequelize(`postgres://user1:UOD8WOkL6nKNPSxBCCtoIuPQCOLLXZO5@dpg-ciov4s59aq0dcpv54770-a/food_ha8c`, {
+const sequelize = new Sequelize(`postgres://user1:UOD8WOkL6nKNPSxBCCtoIuPQCOLLXZO5@dpg-ciov4s59aq0dcpv54770-a.oregon-postgres.render.com/food_ha8c`, {
 //postgres://user1:UOD8WOkL6nKNPSxBCCtoIuPQCOLLXZO5@dpg-ciov4s59aq0dcpv54770-a/food_ha8c 
 //postgres://user1:ua86lW8sQ70peFJ61A6ceGR4keNY03ec@dpg-chsjag1mbg57s5r2jgl0-a/food_e5h0
   //`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`, {
